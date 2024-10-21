@@ -34,6 +34,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items:center;
+    position: sticky;
+    top:0;
 }
 .localizar{
     padding-right:100px;
@@ -254,13 +256,18 @@ font-size: 20px;
 }
 
 /*MOBILEEEEEEEEEEEEEE*/
-@media (max-width:480px){
+@media (max-width:500px){
 .header_ordenador{
     display:none;
 }
 .header_mobile{
     display:block;
+    display: flex;
     justify-content: space-between;
+    padding-right: 5%;
+}
+.logo{
+    width: 30%;
 }
 main{
     flex-direction: column;
@@ -269,9 +276,33 @@ section{
     flex-direction: column;
 }
 .imagen_lavanda{
-    width: 90%;
+    width: 100%;
 }
-.titulo_banner{
-    font-size: 12px;
+.titulo_h1{
+    font-size: larger;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
 }
+.duscubri{
+    padding-left: 5%;
 }
+
+/*PAGE CAFEEEE MOBILEEEEEE*/
+.menu_h3{
+    font-size:x-large;
+}
+.disfru{
+    font-size: large;
+
+}
+.menu_h5{
+    font-size: large;
+}
+.menu_section{
+    text-align: center;
+}
+.cafe_caliente{
+    width: 40%;;
+}
+    }
