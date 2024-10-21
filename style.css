@@ -95,23 +95,7 @@ section{
    
    
 }
-.links_section{
-    list-style: none;
-    flex-direction: column;
-    padding-left: 10px;
-    ;
-}
-.links_section a{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size:16px;
-    color:#697565;
-    text-shadow: 1px 0px 1px black;
-    padding-bottom:5%;
-   
-    
-    }
+
 footer{
     display: flex;
     background-color: white;
@@ -257,14 +241,17 @@ font-size: 20px;
 
 /*MOBILEEEEEEEEEEEEEE*/
 @media (max-width:500px){
+body{
+    margin:0px;
+}
 .header_ordenador{
     display:none;
 }
 .header_mobile{
+    width: 40%;
     display:block;
     display: flex;
     justify-content: space-between;
-    padding-right: 5%;
 }
 .logo{
     width: 30%;
@@ -276,18 +263,31 @@ section{
     flex-direction: column;
 }
 .imagen_lavanda{
-    width: 100%;
+    width: 80%;
 }
 .titulo_h1{
-    font-size: larger;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 40%;
+    font-size:smaller;
     text-align: center;
 }
 .duscubri{
-    padding-left: 5%;
+    width: 70%;
+    font-size: smaller;
 }
-
+.segundo_titulo{
+        width: 70%;
+        font-size:small;
+        padding-left:2%;
+        padding-right: 2%;
+}
+.segundo_subti{
+    width: 80%;
+    font-size: small;
+    padding-left: 2%;
+}
+.sabores{
+    font-size: small;
+}
 /*PAGE CAFEEEE MOBILEEEEEE*/
 .menu_h3{
     font-size:x-large;
